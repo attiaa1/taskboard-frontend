@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+:root {
+    --background: #24283b;
+    --foreground: #c0caf5;
+    --primary: #7aa2f7;
+    --secondary: #bb9af7;
+    --accent: #7dcfff;
+    --error: #f7768e;
+    --warning: #e0af68;
+    --success: #9ece6a;
+    --info: #2ac3de;
+    --border: #1a1b26;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'JetBrains Mono Light', monospace;
+    font-weight: normal;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-weight: normal;
+  }
+  
+  a {
+    color: var(--accent);
+  }
+  
+  button {
+    background-color: var(--primary);
+    color: var(--foreground);
+    border: 1px solid var(--border);
+  }
+  
+  button:hover {
+    background-color: var(--secondary);
+  }
+  
+  input, textarea {
+    background-color: var(--border);
+    color: var(--foreground);
+    border: 1px solid var(--border);
+  }
+  
+  input:focus, textarea:focus {
+    border-color: var(--accent);
+  }
+  
+  .error {
+    color: var(--error);
+  }
+  
+  .warning {
+    color: var(--warning);
+  }
+  
+  .success {
+    color: var(--success);
+  }
+  
+  .info {
+    color: var(--info);
+  }
+  
+
+body {
+  font-family: 'JetBrains Mono Light', monospace;
+}
+
+.appWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1em;
+}
+
+.userCredentials {
+  background-color: var(--info);
+  color: white;
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  display: grid;
+  font-size: 24px;
+  font-weight: normal;
+
+  
+  button {
+    background-color: whitesmoke;
+    color: black;
+    margin: 25px;
+    width: fit-content;
+    font-size: 18px;
+    font-family: 'JetBrains Mono Light', monospace;
+  }
+  
+  button:hover {
+    background-color: var(--secondary);
+    color:white;
+  }
+
+  label {
+    margin: 20px;
+    display: grid
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  input {
+    background-color: white;
+    color: black;
+    width: fit-content;
+    font-size: 24px;
+    font-family: 'JetBrains Mono Light', monospace;
+    
+  }
+
+  input:focus {
+    border-color: var(--accent);
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: var(--success);
+  }
+}
+
+
