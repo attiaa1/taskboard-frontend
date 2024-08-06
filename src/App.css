@@ -90,7 +90,7 @@ p {
 }
 
 .userCredentials {
-  background-color: var(--info);
+  background-color: black;
   color: white;
   border: 2px solid var(--border);
   border-radius: 20px;

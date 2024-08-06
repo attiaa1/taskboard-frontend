@@ -175,7 +175,6 @@ const Dashboard = () => {
     return (
         <>
         <h2> Welcome, {username}! </h2>
-        <h3> Here's your dashboard:</h3>
         <div className="dashboard">
             <div className="dashboardColumn">
                 <h1>To Do</h1>
